@@ -1,0 +1,28 @@
+.Slider {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 10px; /* Adjust spacing between image and buttons */
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#prevButton, #nextButton {
+    margin: 0 5px; /* Adjust spacing between buttons */
+}
